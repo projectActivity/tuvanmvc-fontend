@@ -1,0 +1,720 @@
+@media screen and (max-width: 1440px) {
+}
+
+
+@media screen and (max-width: 1360px) {
+    /* Header */
+    .block-lienhe {
+        padding-right: 0px;
+    }
+    /*End Header*/
+
+    /* Menu */
+    #div-search input {
+        width: 200px;
+    }
+
+
+    /*End Menu*/
+    /*Slide */
+    #div-slide {
+        margin-top: 40px;
+    }
+
+    #block-slider img {
+        height: 400px;
+    }
+
+    #block-tintuc .block-tintuc-title .heading {
+        padding: 10px 10px;
+        font-size: medium;
+    }
+
+    #block-tintuc .block-tintuc-title:after {
+        border-top: 42px solid #8a341d;
+    }
+
+    #block-tintuc .block-tintuc-item .block-tintuc-item-content .title a {
+        font-size: 16px;
+    }
+
+    /*End slide*/
+
+    /* Bai viet - Tin van */
+    .chude {
+        margin-top: 40px;
+    }
+
+    /* End bai viet - tin van*/
+}
+
+@media screen and (max-width: 1024px) {
+    .div-heading {
+        font-size: large;
+    }
+    /* Header */
+
+
+    .block-lienhe {
+        padding-right: 0px;
+    }
+
+    .icon-lienhe {
+        padding: 0px;
+        border-radius: 20px;
+        width: 20px;
+    }
+
+    .content-lienhe-label {
+        font-size: 10px;
+    }
+
+    .content-lienhe-data {
+        font-size: 10px;
+    }
+
+    /*End Header*/
+    /* Menu*/
+    #div-menu ul li.active {
+        font-size: 12px;
+    }
+
+    #div-menu ul li {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+
+    /*End Menu */
+
+    /*Slide */
+    #div-slide {
+        margin-top: 35px;
+    }
+
+    #block-tintuc .block-tintuc-title .heading {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    #block-tintuc .block-tintuc-title:after {
+        border-right: 50px solid transparent;
+        border-top: 30px solid #8a341d;
+    }
+
+    #block-tintuc .block-tintuc-item .block-tintuc-item-content {
+        padding: 5px;
+    }
+
+        #block-tintuc .block-tintuc-item .block-tintuc-item-content .title {
+            font-size: 14px;
+        }
+
+            #block-tintuc .block-tintuc-item .block-tintuc-item-content .title a {
+                font-size: 13px;
+            }
+
+        #block-tintuc .block-tintuc-item .block-tintuc-item-content .description {
+            display: none;
+        }
+
+    #block-slider img {
+        height: 320px;
+    }
+    /*End Slide*/
+
+    /*Djic vu noi bat*/
+    #div-slide {
+        min-height: 310px;
+    }
+
+    #block-slider {
+        height: 310px;
+    }
+
+    .div-dicvunoibat-content ul.tabslide-link li {
+        min-width: 50px;
+    }
+
+        .div-dicvunoibat-content ul.tabslide-link li.active {
+            min-width: 50px;
+            height: 50px;
+            padding: 6px;
+        }
+
+    .tabslide-content .tabItemContent .title {
+        font-size: 18px;
+    }
+
+    .readmore {
+        font-size: small;
+    }
+
+    .btn {
+        padding: 4px 12px;
+    }
+
+    /*End dilc vu noi bat*/
+
+
+    /*Dich vu cua chung toi*/
+    .header-title-style1 .heading {
+        font-size: 13px;
+    }
+    /*End dich vu cua chung toi*/
+
+    /* Luat su thanh vien*/
+    #div-luatsuthanhvien .thanhvien .summary {
+        font-size: small;
+    }
+
+    #div-luatsuthanhvien .thanhvien .thanhvien-item .data-mes {
+        font-size: small;
+    }
+
+    #div-luatsuthanhvien .thanhvien .thanhvien-item .customer-name {
+        font-size: small;
+    }
+
+    #div-tuvanmienphi .form-tuvan label {
+        font-size: small;
+    }
+    /* End luat su thanh vien*/
+
+    /* Footer */
+    .cty-logo img {
+        max-width: 200px;
+    }
+
+    footer .tencongty {
+        font-size: medium;
+    }
+
+    footer .cty-info {
+        font-size: 13px;
+    }
+
+    .ft-dichvu ul li a {
+        font-size: 13px;
+    }
+    /* End Footer */
+
+    /* Bai viet - Tin van */
+    .chude {
+        margin-top: 40px;
+    }
+
+    /* End bai viet - tin van*/
+    .header-title .heading {
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+
+    .header-title:after {
+        border-top: 35px solid #8a341d;
+    }
+
+    #dsTuVanonline .lstCauHoi .cauhoiitem img {
+        max-width: 50px;
+    }
+
+    #tintucPageItem {
+        margin-top: 35px;
+    }
+
+    .baivietItem img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #gioithieumyCarousel {
+        clear: both;
+        margin-top: 10px;
+        float: left;
+    }
+
+    #div-slide-gioithieu {
+        clear: both;
+        margin-top: 10px;
+        float: left;
+    }
+
+        #div-slide-gioithieu .gioithieu-content {
+            padding: 10px;
+            color: #f8983b;
+            font-size: 1em;
+        }
+
+    #div-gioithieuthanhvien .content-slider li .tv-item {
+        width: 90%;
+    }
+
+    #div-gioithieuthanhvien .tv-info .content-thongtinchung .content-thongtinchung-item {
+        font-size: 15px;
+        margin: 3px;
+    }
+
+    #div-gioithieuthanhvien .tv-info .thongtinchung {
+        min-height: initial;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-title:after {
+        display: none;
+    }
+
+    #div-top {
+        height: auto;
+    }
+    /* Header */
+    #logo img {
+        margin-top: 5px;
+    }
+
+    .block-lienhe {
+        display: none;
+    }
+    /*End Header*/
+
+    /* Menu */
+    #div-menu ul {
+        background: #f8983b;
+        float: none;
+        position: relative;
+        z-index: 9999;
+    }
+
+        #div-menu ul li.active {
+            font-size: 14px;
+        }
+
+        #div-menu ul li {
+            display: block;
+            font-size: 14px;
+            margin: 5px, 2px, 5px, 2px;
+            padding: 10px 0px;
+        }
+
+    #div-search {
+        display: none;
+    }
+
+    #block-slider {
+        display: none;
+    }
+
+    #block-tintuc .block-tintuc-title {
+        clear: both;
+        padding: 0px 5px;
+    }
+
+    /*End Menu*/
+
+    #div-top {
+        position: relative;
+    }
+
+    .mobile-button {
+        display: inline-block;
+        float: right;
+        border: 2px solid #8a341d;
+        color: #8a341d;
+        padding: 5px;
+        border-radius: 3px;
+        bottom: 20px;
+        position: absolute;
+    }
+
+    #div-menu {
+        position: relative;
+        display: none;
+    }
+
+
+    #logo {
+        max-width: 90%;
+        display: inline-block;
+    }
+
+    #div-menu ul {
+        float: left;
+        width: 100%;
+        padding: 10px;
+    }
+
+        #div-menu ul li {
+            float: none;
+        }
+
+            #div-menu ul li a {
+                display: block;
+            }
+
+            #div-menu ul li:hover ul {
+                position: static;
+                z-index: 0;
+            }
+
+                #div-menu ul li:hover ul li {
+                    position: static;
+                    z-index: 0;
+                }
+
+
+        #div-menu ul.menu-child li {
+            min-width: 100%;
+        }
+
+    /*Slide */
+    #div-slide {
+        margin-top: 20px;
+    }
+
+    #block-tintuc .block-tintuc-title .heading {
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+
+    #block-tintuc .block-tintuc-title:after {
+        border-right: 50px solid transparent;
+        border-top: 35px solid #8a341d;
+    }
+
+    #block-tintuc .block-tintuc-item .block-tintuc-item-content {
+        padding: 10px;
+    }
+
+        #block-tintuc .block-tintuc-item .block-tintuc-item-content .title {
+            font-size: 14px;
+        }
+
+            #block-tintuc .block-tintuc-item .block-tintuc-item-content .title a {
+                font-size: 14px;
+            }
+
+    #block-slider img {
+        height: 400px;
+    }
+    /*End Slide*/
+
+    /*Dich vu noi bat*/
+    .div-dicvunoibat-content .tabItemImage {
+        padding: 30px;
+        margin: 10px 0px -10px 0px;
+    }
+
+    .div-heading {
+        font-size: large;
+    }
+    /*ELnd dich vu noi bat*/
+
+    /*Qua trinh cung cap dich vu*/
+    #div-quatrinhcungcapdichvu .step-content .step .title {
+        font-size: 12px;
+    }
+
+
+
+    .div-quatrinhcungcapdichvu-content .step-content .item-data span {
+        display: none;
+    }
+    /*End qua trinh cung cap dich vu*/
+
+    /* Dich vu cua chung toi*/
+    .header-title-style1 .heading {
+        font-size: 11px;
+    }
+
+    #blockTinTucDichVu .content-tintuc ul li a {
+        font-size: 11px;
+    }
+
+
+
+
+    /* End cih vu cua chung toi*/
+
+    /*Gioi thieu dich vu*/
+    #div-dichvucuachungtoi {
+        display: none;
+    }
+
+    /* End gioi thieu dich vu*/
+
+    /* Doi tac*/
+    #div-phanhoikhachhang {
+        margin-bottom: 20px;
+    }
+
+    #div-doitac {
+        display: none;
+    }
+    /*End doi tac*/
+
+    /* Luat su thanh vien*/
+    #div-luatsuthanhvien .thanhvien .summary {
+        font-size: small;
+    }
+    /* End luat su thanh vien*/
+    .baivietItem img {
+        display: none;
+    }
+
+    #block-tintuc.pagegioithieu {
+        display: none;
+    }
+
+    #div-gioithieuthanhvien .slideThanHVien .info .Name {
+        font-size: 15px;
+    }
+
+    #div-gioithieuthanhvien .slideThanHVien .info .chucvu {
+        font-size: 12px;
+    }
+
+    #div-gioithieuthanhvien .content-slider li .tv-item .hinhanh {
+        background-size: cover;
+        height: 200px;
+    }
+
+    #div-gioithieuthanhvien .content-slider li .tv-item {
+        height: 290px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    #block-tintuc .block-tintuc-item .block-tintuc-item-content .description {
+        display: inline;
+    }
+
+    #block-tintuc .block-tintuc-item .block-tintuc-item-content {
+        padding: 20px;
+    }
+
+    .div-dicvunoibat-content .tabItemImage {
+        display: none;
+    }
+
+    .mobile-button {
+        position: relative;
+        margin: 30px 5px 5px 5px;
+    }
+
+    #div-datlich .form-data .form-group.col-sm-6 {
+        display: inline-block;
+        width: 49%;
+    }
+
+    #div-datlich .form-data .form-group.col-sm-12 {
+        display: inline-block;
+        width: 98%;
+    }
+
+    #div-datlich .form-data .form-group select {
+        padding: 6px;
+        border-radius: 5px;
+        border-color: #f8983b;
+    }
+
+    #div-datlich .readmore {
+        text-align: center;
+    }
+
+        #div-datlich .readmore a {
+            font-size: medium;
+        }
+
+    #div-datlich .box-item {
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* Header */
+    #logo img {
+        margin-top: 5px;
+    }
+
+    .div-dicvunoibat-content .tabItemImage {
+        display: none;
+    }
+
+    #div-datlich .form-data .form-group {
+        display: block;
+        width: 98%;
+    }
+
+        #div-datlich .form-data .form-group select {
+            padding: 6px;
+            border-radius: 5px;
+            border-color: #f8983b;
+        }
+
+    #div-gioithieuthanhvien .content-slider li .tv-item {
+        height: 240px;
+    }
+
+        #div-gioithieuthanhvien .content-slider li .tv-item .hinhanh {
+            height: 140px;
+            width: 100%;
+        }
+
+    #div-gioithieuthanhvien .slideThanHVien .info .Name {
+        font-size: 13px;
+    }
+
+    #div-gioithieuthanhvien .slideThanHVien .info .chucvu {
+        font-size: 10px;
+    }
+     .li-first .col-xs-3{
+        display:none;
+    }
+       .li-first .col-xs-9{
+        width:100%;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    /* Header */
+    #logo img {
+        margin-top: 5px;
+    }
+
+    .div-dicvunoibat-content .tabItemImage {
+        display: none;
+    }
+
+    /*End Header*/
+
+}
+
+@media screen and (max-width: 360px) {
+    /* Header */
+    #logo img {
+        margin-top: 10px;
+    }
+
+    #div-top {
+        position: relative;
+    }
+
+    .mobile-button {
+        display: inline-block;
+        float: right;
+        border: 2px solid #8a341d;
+        color: #8a341d;
+        padding: 5px;
+        border-radius: 3px;
+        bottom: 20px;
+        position: relative;
+        margin: 30px 5px 5px 5px;
+    }
+
+    #div-menu {
+        position: relative;
+        display: none;
+    }
+
+
+    #logo {
+        max-width: 90%;
+        display: inline-block;
+    }
+
+    #div-menu ul {
+        float: left;
+        width: 100%;
+        padding: 10px;
+    }
+
+        #div-menu ul li {
+            float: none;
+        }
+
+            #div-menu ul li a {
+                display: block;
+            }
+
+            #div-menu ul li:hover ul {
+                position: static;
+                z-index: 0;
+            }
+
+                #div-menu ul li:hover ul li {
+                    position: static;
+                    z-index: 0;
+                }
+
+
+        #div-menu ul.menu-child li {
+            min-width: 100%;
+        }
+
+    /*End Header*/
+   
+}
+
+@media screen and (max-width: 320px) {
+    /* Header */
+    #logo img {
+        margin-top: 20px;
+    }
+
+    #div-top {
+        position: relative;
+    }
+
+    .mobile-button {
+        display: inline-block;
+        float: right;
+        border: 2px solid #8a341d;
+        color: #8a341d;
+        padding: 5px;
+        border-radius: 3px;
+        bottom: 20px;
+        position: absolute;
+    }
+
+    #div-menu {
+        position: relative;
+        display: none;
+    }
+
+
+    #logo {
+        max-width: 90%;
+        display: inline-block;
+    }
+
+    #div-menu ul {
+        float: left;
+        width: 100%;
+        padding: 10px;
+    }
+
+        #div-menu ul li {
+            float: none;
+        }
+
+            #div-menu ul li a {
+                display: block;
+            }
+
+            #div-menu ul li:hover ul {
+                position: static;
+                z-index: 0;
+            }
+
+                #div-menu ul li:hover ul li {
+                    position: static;
+                    z-index: 0;
+                }
+
+        #div-menu ul.menu-child li {
+            min-width: 100%;
+        }
+    /*End Header*/
+
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>@SEODATA.TITTLE - Tư vấn MVC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="utf-8" />
+		<meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="content-language" content="vi" />
+
+		<!-- CSS -->
+		<!-- ============================================================================ -->
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/bootstrap.min.css">
+    <link type="text/css" href="/static/fontawesomev506/css/fontawesome-all.min.css" rel="stylesheet" media="screen" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/font_awesome/font-awesome.min.css">
+    <link rel="shortcut icon" href="/static/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/static/img/favicon/favicon.ico" type="image/x-icon">
+    <link href="/static/css/chosen.min.css" rel="stylesheet" />
+    <link href="/static/css/Common.css" rel="stylesheet" />
+    <link href="/static/css/client.css" rel="stylesheet" />
+    <link href="/static/css/jquery.growl.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="/static/css/your_style.css" />
+		<link rel="stylesheet" href="/static/css/jquery-social-share-bar.css" />
+
+		<!-- JS -->
+		<!-- ============================================================================ -->
+    <script src="/static/js/jquery-2.1.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/validateProvider.js"></script>
+    <script src="/static/js/jquery.growl.js"></script>
+    <script src="/static/js/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="/static/js/jquerychosen/chosen.jquery.min.js"></script>
+    <script src="/static/js/jquery-social-share-bar.js"></script>
+
+    <title>tuvanmvc-fontend</title>
+
+    <style type="text/css">
+    /*
+     * contextMenu.js v 1.4.0
+     * Author: Sudhanshu Yadav
+     * s-yadav.github.com
+     * Copyright (c) 2013 Sudhanshu Yadav.
+     * Dual licensed under the MIT and GPL licenses
+    **/
+
+    .iw-contextMenu {
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.10);
+        border: 1px solid #c8c7cc;
+        border-radius: 11px;
+        display: none;
+        z-index: 1000000132;
+        max-width: 300px;
+    }
+
+    .iw-cm-menu {
+        background: #fff;
+        color: #000;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .iw-curMenu {
+    }
+
+    .iw-cm-menu li {
+        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+        list-style: none;
+        padding: 10px;
+        padding-right: 20px;
+        border-bottom: 1px solid #c8c7cc;
+        cursor: pointer;
+        position: relative;
+        font-size: 14px;
+        margin: 0;
+        line-height: inherit;
+    }
+
+    .iw-cm-menu li:first-child {
+        border-top-left-radius: 11px;
+        border-top-right-radius: 11px;
+    }
+
+    .iw-cm-menu li:last-child {
+        border-bottom-left-radius: 11px;
+        border-bottom-right-radius: 11px;
+        border-bottom: none;
+    }
+
+    .iw-mOverlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        background: #FFF;
+        opacity: .5;
+    }
+
+    .iw-contextMenu li.iw-mDisable {
+        opacity: 0.3;
+        cursor: default;
+    }
+
+    .iw-mSelected {
+        background-color: #F6F6F6;
+    }
+
+    .iw-cm-arrow-right {
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid #000;
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        margin-top: -5px;
+    }
+
+    .iw-mSelected > .iw-cm-arrow-right {
+    }
+
+    /*context menu css end */
+    </style>
+    <style type="text/css">
+      @-webkit-keyframes load4 {
+        0%,
+        100% {
+            box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+        }
+        12.5% {
+            box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+        }
+        25% {
+            box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+        }
+        37.5% {
+            box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+        }
+        50% {
+            box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+        }
+        62.5% {
+            box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+        }
+        75% {
+            box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+        }
+        87.5% {
+            box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+        }
+      }
+
+      @keyframes load4 {
+        0%,
+        100% {
+            box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+        }
+        12.5% {
+            box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+        }
+        25% {
+            box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+        }
+        37.5% {
+            box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+        }
+        50% {
+            box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+        }
+        62.5% {
+            box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+        }
+        75% {
+            box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+        }
+        87.5% {
+            box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+        }
+      }
+    </style>
+    <style type="text/css">/* This is not a zero-length file! */</style>
+  </head>
+  <body>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117689236-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-117689236-1');
+    </script>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
