@@ -95,8 +95,8 @@ body {
 
             #div-menu ul li:hover {
                 border-bottom: 2px solid #b33939;
-                font-weight: bold;
-                font-size: large;
+                /*font-weight: bold;
+                font-size: large;*/
             }
 
             #div-menu ul li.active {

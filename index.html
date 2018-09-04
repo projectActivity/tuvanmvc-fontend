@@ -191,7 +191,28 @@
 
         gtag('config', 'UA-117689236-1');
     </script>
+    <div id="share-bar"></div>
+
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+
+
+    <script>
+      $('#share-bar').share({
+        'channels': ['facebook', 'twitter', 'googleplus', 'email']
+      });
+      
+      var menushow = true;
+      $(".mobile-button").click(function () {
+        if (menushow) {
+          $("#div-menu").fadeIn();
+          menushow = false;
+        } else {
+          $("#div-menu").fadeOut();
+          menushow = true;
+        }
+      })
+    </script>
   </body>
 </html>
