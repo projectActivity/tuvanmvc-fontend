@@ -1,54 +1,45 @@
 import Master from './components/_layouts/Master'
-import HomeMVC from './components/home/HomeMVC'
-import About from './components/about/About'
-import News from './components/post/News'
-import Contact from './components/contact/Contact'
-import Question from './components/question/Question'
-import Document from './components/document/Document'
-import Calendar from './components/calendar/Calendar'
-import Service from './components/service/Service'
-
 
 const routes = [
 	{
 		path: '/',
 		name: 'home',
-		component: HomeMVC
+		component: () => import('@/components/home/HomeMVC')
 	},
 	{
 		path: '/about',
 		name: 'about',
-		component: About
+		component: () => import('@/components/about/About')
 	},
 	{
 		path: '/contact',
 		name: 'contact',
-		component: Contact
+		component: () => import('@/components/contact/Contact')
 	},
 	{
 		path: '/news',
 		name: 'news',
-		component: News
+		component: () => import('@/components/post/News')
 	},
 	{
 		path: '/question',
 		name: 'question',
-		component: Question
+		component: () => import('@/components/question/Question')
 	},
 	{
 		path: '/document',
 		name: 'document',
-		component: Document
+		component: () => import('@/components/document/Document')
 	},
 	{
 		path: '/calendar',
 		name: 'calendar',
-		component: Calendar
+		component: () => import('@/components/calendar/Calendar')
 	},
 	{
-		path: '/service',
+		path: '/service/:slug',
 		name: 'service',
-		component: Service
+		component: () => import('@/components/service/Service')
 	},
 
 ]

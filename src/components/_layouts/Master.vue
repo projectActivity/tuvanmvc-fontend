@@ -52,7 +52,7 @@
     	      <li class="dichvu">
     	        <a href="###">Dịch vụ</a>
     	        <ul class="menu-child">
-    	          <li class="" v-for="category in isDisplayCategories"><router-link :to="{ name: 'service' }">{{ category.title }}</router-link></li>
+    	          <li class="" v-for="service in isDisplayServices" :key="service.id"><router-link :to="{ name: 'service', params: { slug: service.slug }}" >{{ service.title }}</router-link></li>
     	        </ul>
     	      </li>
     	      <li class=""><router-link :to="{ name: 'news' }">Tin Tức</router-link></li>
@@ -97,7 +97,7 @@
   	      <div class="col-sm-4 ft-dichvu">
   	        <h3 class="tencongty">Dịch vụ</h3>
   	        <ul>
-  	          <li class="" v-for="category in isDisplayCategories"><a :href="category.link">{{ category.title }}</a></li>
+  	          <li class="" v-for="service in isDisplayServices" :key="service.id"><router-link :to="{ name: 'service', params: { slug: service.slug }}">{{ service.title }}</router-link ></li>
   	        </ul>
   	      </div>
   	    </div>
@@ -107,29 +107,29 @@
 </template>
 
 <script>
-	import {HTTP} from '@/http-common';
+	import {HTTP} from '@/utils/http-common'
 
 	export default {
 		name: 'master',
 		data() {
 			return {
-				categories: []
+				services: []
 			}
 		},
 		created() {
-			this.fetchCategories()
+			this.fetchServices()
 		},
 		computed: {
-			isDisplayCategories: function () {
-				return this.categories.filter(function (category) {
-					return category.is_display
+			isDisplayServices: function () {
+				return this.services.filter(function (service) {
+					return service.is_display
 				})
 			},
 		},
 		methods: {
-			fetchCategories() {
-				HTTP.get('categories')
-					.then(response => (this.categories = response.data.data))
+			fetchServices() {
+				HTTP.get('services')
+					.then(response => (this.services = response.data.data))
 			}
 		}
 	}
